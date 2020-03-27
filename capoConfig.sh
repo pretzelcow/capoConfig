@@ -15,7 +15,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 git clone https://github.com/pretzelcow/capoConfig.git && cd capoConfig
 
 # Make rc.lua config directory
-mkdir ~/.config && mkdir ~/.config/awesome
+mkdir ~/.config/awesome/
 
 # Copy the files
 cp .xinitrc ~/
