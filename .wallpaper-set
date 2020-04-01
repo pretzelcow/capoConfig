@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sleep 5
+
+xwallpaper --zoom ~/.config/awesome/background.png
