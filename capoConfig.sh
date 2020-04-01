@@ -20,6 +20,7 @@ mkdir ~/.config/awesome/
 # Copy the files
 cp .xinitrc ~/
 cp .xprofile ~/
+cp .wallpaper-set ~/
 cp rc.lua ~/.config/awesome/
 cp theme.lua ~/.config/awesome/
 
