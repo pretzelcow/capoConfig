@@ -21,6 +21,7 @@ mkdir ~/.config/awesome/
 cp .xinitrc ~/
 cp .xprofile ~/
 cp rc.lua ~/.config/awesome/
+cp theme.lua ~/.config/awesome/
 
 # Delete folder
 cd ~/
