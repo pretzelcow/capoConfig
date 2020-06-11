@@ -1,0 +1,13 @@
+#!/bin/bash
+setxkbmap -option caps:super &
+#xcompmgr -c &
+picom --config /home/capocow/.config/picom/picom.conf &
+volumeicon &
+bash ~/.bin/.wallpaper-set &
+unclutter &
+
+#Set time in DWM status bar
+while true; do
+	xsetroot -name "$(date)"
+	sleep 1s &
+done &
